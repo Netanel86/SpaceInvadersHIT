@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52EDBF09-0213-4234-A3C5-1729AA9A597B}"
+	ProjectSection(SolutionItems) = preProject
+		Exercise Report.txt = Exercise Report.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex03.Infrastracture", "Ex03.Infrastracture\Ex03.Infrastracture.csproj", "{B70D871C-E360-4ED1-A250-07C3303C69EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex03.SpaceInvaders.Library", "Ex03.SpaceInvaders.Library\Ex03.SpaceInvaders.Library.csproj", "{71D15520-DD50-45DA-8C93-7D4C1A3CA2DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex03.SpaceInvaders", "Ex03.SpaceInvaders\Ex03.SpaceInvaders\Ex03.SpaceInvaders.csproj", "{7E153AD5-9F41-41EB-8AC3-86341DF74E94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex03.SpaceInvadersContent", "Ex03.SpaceInvaders\Ex03.SpaceInvadersContent\Ex03.SpaceInvadersContent.contentproj", "{E302F9C0-9285-4F1C-827F-F33421643BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex03.InfrastractureContent", "Ex03.InfrastractureContent\Ex03.InfrastractureContent.contentproj", "{13D53785-47A9-44DD-90CC-70579FCB30ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B70D871C-E360-4ED1-A250-07C3303C69EF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B70D871C-E360-4ED1-A250-07C3303C69EF}.Debug|x86.ActiveCfg = Debug|x86
+		{B70D871C-E360-4ED1-A250-07C3303C69EF}.Debug|x86.Build.0 = Debug|x86
+		{B70D871C-E360-4ED1-A250-07C3303C69EF}.Release|Any CPU.ActiveCfg = Release|x86
+		{B70D871C-E360-4ED1-A250-07C3303C69EF}.Release|x86.ActiveCfg = Release|x86
+		{B70D871C-E360-4ED1-A250-07C3303C69EF}.Release|x86.Build.0 = Release|x86
+		{71D15520-DD50-45DA-8C93-7D4C1A3CA2DF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{71D15520-DD50-45DA-8C93-7D4C1A3CA2DF}.Debug|x86.ActiveCfg = Debug|x86
+		{71D15520-DD50-45DA-8C93-7D4C1A3CA2DF}.Debug|x86.Build.0 = Debug|x86
+		{71D15520-DD50-45DA-8C93-7D4C1A3CA2DF}.Release|Any CPU.ActiveCfg = Release|x86
+		{71D15520-DD50-45DA-8C93-7D4C1A3CA2DF}.Release|x86.ActiveCfg = Release|x86
+		{71D15520-DD50-45DA-8C93-7D4C1A3CA2DF}.Release|x86.Build.0 = Release|x86
+		{7E153AD5-9F41-41EB-8AC3-86341DF74E94}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7E153AD5-9F41-41EB-8AC3-86341DF74E94}.Debug|x86.ActiveCfg = Debug|x86
+		{7E153AD5-9F41-41EB-8AC3-86341DF74E94}.Debug|x86.Build.0 = Debug|x86
+		{7E153AD5-9F41-41EB-8AC3-86341DF74E94}.Release|Any CPU.ActiveCfg = Release|x86
+		{7E153AD5-9F41-41EB-8AC3-86341DF74E94}.Release|x86.ActiveCfg = Release|x86
+		{7E153AD5-9F41-41EB-8AC3-86341DF74E94}.Release|x86.Build.0 = Release|x86
+		{E302F9C0-9285-4F1C-827F-F33421643BE3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E302F9C0-9285-4F1C-827F-F33421643BE3}.Debug|x86.ActiveCfg = Debug|x86
+		{E302F9C0-9285-4F1C-827F-F33421643BE3}.Release|Any CPU.ActiveCfg = Release|x86
+		{E302F9C0-9285-4F1C-827F-F33421643BE3}.Release|x86.ActiveCfg = Release|x86
+		{13D53785-47A9-44DD-90CC-70579FCB30ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D53785-47A9-44DD-90CC-70579FCB30ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13D53785-47A9-44DD-90CC-70579FCB30ED}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D53785-47A9-44DD-90CC-70579FCB30ED}.Release|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

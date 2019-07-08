@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ex02.SpaceInvaders.Program" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.SpaceInvadersGame" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAgAAAAAAAQAAAAgAAKAAAAAAAAAAgAAAAAgAAAQ=</HashCode>
+      <FileName>SpaceInvadersGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.Direction.Direction2D" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.Direction.Direction3D" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ExtensionMethods" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.RandomGenerator" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.Managers.CollisionManager" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.GameService" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.LoadableDrawableComponent" Collapsed="true">
+    <Position X="19" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.RegisteredComponent" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.Sprite" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Bullets.Bullet" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Bullets.BulletSpawner" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Bullets.InvaderBullet" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Bullets.InvaderBulletBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Bullets.SpaceCraftBullet" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Bullets.SpaceCraftBulletBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="2.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Entities.Barrier" Collapsed="true">
+    <Position X="27.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Entities.Enemy" Collapsed="true">
+    <Position X="18.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Entities.MotherShip" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Entities.SpaceCraft" Collapsed="true">
+    <Position X="21.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Invader" Collapsed="true">
+    <Position X="17.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.GameServices.GameProgressManager" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.GameServices.InvaderManager" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.ServiceInterfaces.InterceptionEventArgs" Collapsed="true">
+    <Position X="10.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Sprites.Background" Collapsed="true">
+    <Position X="25.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Sprites.ScoreBoard" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Library.Sprites.SoulSprite" Collapsed="true">
+    <Position X="23.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.Managers.InputManager" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.Animators.CompositeAnimator" Collapsed="true">
+    <Position X="15" Y="8.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.Animators.SpriteAnimator" Collapsed="true">
+    <Position X="19.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.Animators.ConcreteAnimators.BlinkAnimator" Collapsed="true">
+    <Position X="21.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.Animators.ConcreteAnimators.OpacityAnimator" Collapsed="true">
+    <Position X="17.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.Animators.ConcreteAnimators.RotateAnimator" Collapsed="true">
+    <Position X="19.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Ex02.SpaceInvaders.Infrastracture.ObjectModel.Animators.ConcreteAnimators.ScaleAnimator" Collapsed="true">
+    <Position X="24" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Ex02.SpaceInvaders.Infrastracture.ServiceInterfaces.ICollidable" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Infrastracture.ServiceInterfaces.ICollidable2D" Collapsed="true">
+    <Position X="11.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Infrastracture.ServiceInterfaces.ICollidablePerPixel" Collapsed="true">
+    <Position X="9" Y="5.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Infrastracture.ServiceInterfaces.ICollisionManager" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Library.Bullets.IBulletBuilder" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Library.ServiceInterfaces.IInterceptable" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Library.ServiceInterfaces.IInterceptionManager" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Library.ServiceInterfaces.IInvaderManager" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Library.ServiceInterfaces.IPlayer" Collapsed="true">
+    <Position X="9" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Library.ServiceInterfaces.IPlayerManager" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ex02.SpaceInvaders.Infrastracture.ServiceInterfaces.IInputManager" Collapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="Ex02.SpaceInvaders.Infrastracture.Direction.eDirectionX" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Ex02.SpaceInvaders.Infrastracture.Direction.eDirectionY" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Ex02.SpaceInvaders.Infrastracture.Direction.eDirectionZ" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Ex02.SpaceInvaders.Infrastracture.ServiceInterfaces.eInputButtons" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
